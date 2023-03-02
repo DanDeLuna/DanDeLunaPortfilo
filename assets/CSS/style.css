@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #d9dcd6;
+}
+header {
+    padding: 15px;
+    font-family: cursive;
+    background-color:  #3b3c3b;
+    
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: white ;
+}
+header nav {
+    padding-top: 85px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;  
+}
+nav ul{
+    list-style-type: none;
+    bottom: 10px;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+h1{
+    background-color: #4682B4;
+    padding: 10px;
+
+}
+.computer {
+    background-image: url(/assets/images/pngtree-futuristic-shape-abstract-background-chemistry-technology-concept-for-website-picture-image_1250295.jpg);
+    width: 200px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+#navbar-block {
+    
+}
+.header-block{
+    
+}
+.header-block a{
+    text-decoration: none;
+color: white;
+}
+.contact-info{
+margin: 10px;
+}
