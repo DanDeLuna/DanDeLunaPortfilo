@@ -5,59 +5,89 @@
 body {
     background-color: #d9dcd6;
 }
-header {
-    padding: 15px;
-    font-family: cursive;
-    background-color:   hsl(224, 91%, 40%);
-    
+
+header h1{
+    color: white;
+    padding-left: 100px;
+    font-size: 40px;
+    margin-bottom: 25px;
 }
 
-header h1 {
-    display: inline-block;
-    font-size: 48px;
-    color: white ;
-}
-header nav {
-    padding-top: 85px;
-    margin-right: 20px;
-    float: right;
+nav {background-color: hsl(224, 91%, 40%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding: left 8%; ;
+    padding: right 8%; ;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;  
+    font-size: 20p; 
 }
-nav ul{
-    list-style-type: none;
-    bottom: 10px;
+span{
+    color: crimson;
 }
 nav ul li {
+    list-style-type: none;
+    bottom: 10px;
+    padding-right: 15px;
     display: inline-block;
     margin-left: 25px;
-    
 }
-h1{
-    background-color: hsl(240, 100%, 0%);
-    padding: 15px;
-    margin-left: 50px;
-    border-radius: 5px;
-    
+nav ul li a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+} 
 
-}
 .computer {
     height: 300px;
     width: 100%;
     background-image: url(/assets/images/pngtree-futuristic-shape-abstract-background-chemistry-technology-concept-for-website-picture-image_1250295.jpg);
     background-size: cover; 
 }
-.navbar-block {
-margin: auto;
+
+.About{
+    width: 100%;
+    padding: 100px 0px;
 }
-.header-block{
-    padding: auto;
+.About-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-title{
+    color: white;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    /*font-style: ;*/
+}
+.About-text p{
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.Project--container{
     
 }
-.header-block a{
-    text-decoration: none;
-color: white;
+.project-box{
+
 }
-.contact-info{
-margin: 10px;
+.project-card{
+
+}
+/*pseudo classes */
+nav ul li a:hover{
+
 }
