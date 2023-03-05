@@ -40,11 +40,9 @@ nav ul li a{
     text-transform: capitalize;
 } 
 
-.computer {
+.computer img{
     height: 300px;
-    width: 100%;
-    background-image: url(/assets/images/technology-picture.jpg);
-    background-size: cover; 
+    width: 100%; 
 }
 /* About me style*/
 .About{
