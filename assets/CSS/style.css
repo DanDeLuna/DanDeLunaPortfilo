@@ -11,6 +11,7 @@ header h1{
     font-size: 40px;
     margin-bottom: 25px;
 }
+/* Nav bar style*/
 nav {background-color: hsl(224, 91%, 40%);
     display: flex;
     align-items: center;
@@ -45,7 +46,7 @@ nav ul li a{
     background-image: url(/assets/images/pngtree-futuristic-shape-abstract-background-chemistry-technology-concept-for-website-picture-image_1250295.jpg);
     background-size: cover; 
 }
-
+/* About me style*/
 .About{
     width: 100%;
     padding: 100px 0px;
@@ -60,6 +61,10 @@ nav ul li a{
     padding-right: 5px;
     padding-bottom: 4px;
     border-radius: 5px;
+}
+.About img{
+    height:500px ;
+    width:400px ;
 }
 
 .main{
@@ -76,7 +81,6 @@ nav ul li a{
     font-size: 60px;
     text-transform: capitalize;
     margin-bottom: 20px;
-    /*font-style: ;*/
 }
 .card a{
     color: aqua;
@@ -88,6 +92,7 @@ nav ul li a{
     font-size: 18px;
     margin-bottom: 45px;
 }
+/* Project  style*/
 .Project--container{
     width: 100%;
     padding: 100px 0px;
@@ -121,6 +126,7 @@ nav ul li a{
     font-size: 30px;
     font-family: monospace;
 }
+/* Useful resoucre style*/
 .container{
     padding: 100px 0px;
     align-items: center;
@@ -135,9 +141,7 @@ nav ul li a{
     justify-content: center;
     justify-content: space-between;
 }
-/*.container h5{
-    text-align: center;
-}*/
+
 .useful-card-title{
     color: #ffffff;
     font-size: 70px;
@@ -169,6 +173,7 @@ nav ul li a{
     margin: 15px;
     color: #ffffff;
 }
+/* Contact style*/
 .Contact-container{
     padding: 100px 0px;
     align-items: center;
