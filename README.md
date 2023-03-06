@@ -16,3 +16,9 @@ AS a Student
 I WANT to build a portfolio of my work for anyone to see what I am working on
 SO THAT employeers and class mates can  review samples of my work and resources I use
 ```
+
+## Preview
+
+The following image shows my  web application's appearance and functionality:
+
+![portfolio demo](./assets/images/Screenshot%202023-03-06%20115644.png)
