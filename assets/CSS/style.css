@@ -22,6 +22,11 @@ nav {background-color: hsl(224, 91%, 40%);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20p; 
 }
+nav h1{
+    background-color:  #FF8000;
+    border-radius: 5px;
+}
+
 span{
     color: rgb(20, 220, 220);
 }
@@ -48,6 +53,11 @@ nav ul li a{
 .About{
     width: 100%;
     padding: 100px 0px;
+}
+.About h2{
+    background-color:  hsl(224, 91%, 40%);
+    border-radius: 5px;
+    width: 300px;
 }
 .About-text{
     width: 550px;
@@ -79,6 +89,8 @@ nav ul li a{
     font-size: 60px;
     text-transform: capitalize;
     margin-bottom: 20px;
+    background-color:  hsl(224, 91%, 40%);
+    border-radius: 5px;
 }
 .card a{
     color: aqua;
@@ -103,6 +115,10 @@ nav ul li a{
     width: 1130px;
     margin: 25px auto;
     text-align: center;
+    background-color:  hsl(224, 91%, 40%);
+    border-radius: 5px;
+    width: 300px;
+    height: 90px;
 }
 .project-box{
 
@@ -149,6 +165,12 @@ nav ul li a{
     text-transform: capitalize;
     margin-bottom: 20px;
 }
+.container h2{
+    background-color:  hsl(224, 91%, 40%);
+    border-radius: 5px;
+    width: 600px;
+}
+
 .useful-box{
     align-items: center;
     display: flex;
@@ -187,7 +209,7 @@ nav ul li a{
 }
 .contact-info a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 252, 252);
     font-size: 30px;
     margin: 15px;
     background-color: #E57300;
